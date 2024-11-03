@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Gubernamental Franklin Delano Roosevelt</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f5f5dc;
+            margin: 0;
+            padding: 20px;
+            background-image: url('https://www.transparenttextures.com/patterns/old_paper.png');
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff8e1;
+            border: 2px solid #8e735b;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            position: relative;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            border-bottom: 2px solid #8e735b;
+        }
+        h1 {
+            color: #8e735b;
+            font-size: 2.8em;
+            text-transform: uppercase;
+            margin: 0;
+            font-style: italic;
+            letter-spacing: 2px;
+        }
+        h1 span {
+            display: block;
+            font-size: 1.5em;
+            font-weight: normal;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #f5f5dc;
+            border-bottom: 2px solid #8e735b;
+            z-index: 1000;
+        }
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap; /* Permite que los enlaces se envuelvan en pantallas pequeñas */
+        }
+        .navbar li {
+            margin: 5px 10px; /* Espaciado más pequeño en móviles */
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #6c5b4e;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+            font-size: 1em; /* Ajustar tamaño de fuente */
+        }
+        .navbar a:hover {
+            background-color: #8e735b;
+            color: #fff;
+        }
+        .header-content {
+            margin: 100px 0 20px; /* espacio para la navbar */
+            text-align: center;
+        }
+        .buttons a {
+            display: inline-block;
+            background-color: #8e735b;
+            color: white;
+            padding: 10px 20px; /* Tamaño de botón ajustado */
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 5px; /* Espaciado más pequeño en móviles */
+            transition: background-color 0.3s, transform 0.3s;
+            font-size: 1em; /* Ajustar tamaño de fuente */
+        }
+        .buttons a:hover {
+            background-color: #6c5b4e;
+            transform: scale(1.05);
+        }
+        .contact {
+            margin: 30px 0;
+            text-align: center;
+        }
+        .contact input[type="email"] {
+            padding: 10px;
+            width: calc(100% - 22px); /* Ajustar ancho en móviles */
+            max-width: 250px; /* Limitar ancho máximo */
+            margin-right: 10px;
+            border: 1px solid #8e735b;
+            border-radius: 5px;
+        }
+        .contact .btn-3 {
+            background-color: #8e735b;
+            color: white;
+            border: none;
+            padding: 10px 20px; /* Tamaño de botón ajustado */
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            font-size: 1em; /* Ajustar tamaño de fuente */
+        }
+        .contact .btn-3:hover {
+            background-color: #6c5b4e;
+            transform: scale(1.05);
+        }
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            border-top: 2px solid #8e735b;
+            padding: 10px 0;
+        }
+        .footer a {
+            color: #8e735b;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        .footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+            display: flex;
+            flex-wrap: wrap; /* Permite que los enlaces se envuelvan en pantallas pequeñas */
+            justify-content: center; /* Centrar enlaces en la línea */
+        }
+        .footer li {
+            display: inline;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar" id="navbar">
+    <ul>
+        <li><a href="F.html">Carreras</a></li>
+        <li><a href="AcercaDe.html">Acerca de</a></li>
+        <li><a href="logo.html">FDR</a></li>
+        <li><a href="Contacto.html">Contacto</a></li>
+    </ul>
+</div>
+
+<div class="container">
+    <header>
+        <h1>INSTITUTO GUBERNAMENTAL<span>FRANKLIN DELANO</span>ROOSEVELT</h1>
+    </header>
+
+    <section class="header-content">
+        <p>Formando profesionales con valores y compromiso social.</p>
+        <p>Nuestro instituto ofrece diversas carreras técnicas y académicas que se adaptan a las necesidades del mercado laboral y al desarrollo personal de nuestros estudiantes.</p>
+        <div class="buttons">
+            <a href="informacion.html" class="btn-1">Información General</a>
+            <a href="inscripciones.html" class="btn-1">Inscripciones Abiertas</a>
+            <a href="promo.html" class="btn-1">Promo</a>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h3>Visítanos</h3>
+        <form>
+            <input type="email" placeholder="Escribe tu correo" required>
+            <input type="submit" class="btn-3" value="Enviar">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="link">
+            <ul>
+                <li><a href="#">Carreras</a></li>
+                <li><a href="#">Acerca De</a></li>
+                <li><a href="#">FDR</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2024 Instituto Franklin Delano Roosevelt</p>
+    </footer>
+</div>
+
+<script>
+    let navbar = document.getElementById("navbar");
+    let lastScrollTop = 0;
+    window.addEventListener("scroll", function() {
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        if (scrollTop > lastScrollTop) {
+            navbar.style.top = "-80px"; // Oculta la barra al bajar
+        } else {
+            navbar.style.top = "0"; // Muestra la barra al subir
+        }
+        lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Para evitar valores negativos
+    });
+
+    let mouseMoveHandler = function() {
+        navbar.style.top = "0"; // Muestra la barra al mover el ratón
+        clearTimeout(timer);
+        timer = setTimeout(() => {
+            navbar.style.top = "-80px"; // Oculta la barra si no hay movimiento
+        }, 2000); // 2 segundos de espera
+    };
+
+    let timer; 
+    window.addEventListener("mousemove", mouseMoveHandler);
+</script>
+
+</body>
+</html>
+
